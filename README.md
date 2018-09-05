@@ -8,4 +8,4 @@ psfex
 sextractor
 
 
-I made an image called driftingpig/obiwan_composit:v3 on NERSC. It currently pass the test util running one brick.
+I made an image called driftingpig/obiwan_composit:v3 on NERSC. It currently passes the test til running one brick.
