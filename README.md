@@ -20,6 +20,6 @@ https://github.com/legacysurvey/obiwan/blob/1810927aaad3cf458ada3962576355727c46
 
 needs to be changed to:
 
-found= glob('%s/*/*/%s' % (dirs['proja'],base), recursive=True)
+found= glob('%s/*//*/%s' % (dirs['proja'],base), recursive=True)
 
 so as the next glob function
