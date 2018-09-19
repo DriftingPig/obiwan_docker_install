@@ -19,6 +19,6 @@ The glob function here:
 https://github.com/legacysurvey/obiwan/blob/1810927aaad3cf458ada3962576355727c464ca6/py/obiwan/kenobi.py#L285
 
 needs to be changed to:
-found= glob('%s//*//*/%s' % (dirs['proja'],base), recursive=True)
+found= glob('%s/* /* /%s' % (dirs['proja'],base), recursive=True)
 
 so as the next glob function
